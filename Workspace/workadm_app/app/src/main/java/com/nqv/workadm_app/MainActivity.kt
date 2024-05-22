@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
                 if (isLoggedIn) {
                     NavGraph(navCtrl = navCtrl)
                 } else {
-                    CMSWelcomeController(navCtrl = navCtrl) { loggedIn->isLoggedIn = loggedIn }
+                    NavGraph(navCtrl = navCtrl)
+//                    CMSWelcomeController(navCtrl = navCtrl) { loggedIn->isLoggedIn = loggedIn }
                 }
             }
         }
