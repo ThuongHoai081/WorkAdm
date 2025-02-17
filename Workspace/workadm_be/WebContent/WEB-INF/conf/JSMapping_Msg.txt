@@ -1,0 +1,45 @@
+ClassName                     ; DB_Attribut                   ; JS_Attribut                   
+TaMsgMessage                  ; I_ID                          ; id                            
+TaMsgMessage                  ; I_Status                      ; stat                          
+TaMsgMessage                  ; I_Type_01                     ; typMsg                        
+TaMsgMessage                  ; I_Type_02                     ; typNoti                       
+TaMsgMessage                  ; T_Info_01                     ; from                          
+TaMsgMessage                  ; T_Info_02                     ; to                            
+TaMsgMessage                  ; T_Info_03                     ; title                         
+TaMsgMessage                  ; T_Info_04                     ; body  
+TaMsgMessage                  ; T_Info_05                     ; inf                        
+TaMsgMessage                  ; I_Aut_User                    ; uId                       
+TaMsgMessage                  ; D_Date                        ; dt   
+TaMsgMessage                  ; I_Entity_ID                   ; entId
+TaMsgMessage                  ; I_Entity_Type                 ; entTyp                          
+TaMsgMessage                  ; O_Documents                	  ; files  
+
+TaMsgMessageHistory           ; I_ID                          ; id                            
+TaMsgMessageHistory           ; I_Message                     ; msgId                       
+TaMsgMessageHistory           ; I_Status                      ; stat                          
+TaMsgMessageHistory           ; I_Aut_User                    ; uId                       
+TaMsgMessageHistory           ; D_Date                        ; dt   
+
+;;
+TaMsgNotification          	  ; I_ID                          ; id                            
+TaMsgNotification             ; I_Status                      ; stat                       
+TaMsgNotification             ; I_Type                        ; typNoti                          
+TaMsgNotification             ; I_Priority                    ; ord                       
+TaMsgNotification             ; T_Info_01                  	  ; cont01   
+TaMsgNotification             ; T_Info_02                  	  ; cont02
+TaMsgNotification             ; T_Info_03                  	  ; cont03
+TaMsgNotification             ; T_Info_04                  	  ; cont04
+TaMsgNotification             ; I_Aut_User                    ; uId 
+TaMsgNotification             ; D_Date_01                     ; dt01 
+TaMsgNotification             ; D_Date_02                     ; dt02 
+TaMsgNotification             ; D_Date_03                     ; dt03  
+TaMsgNotification             ; O_History                     ; history  
+;;
+ViMsgNotification          	  ; I_ID                          ; id                            
+ViMsgNotification             ; I_Status                      ; stat                       
+ViMsgNotification             ; I_Type_01                     ; typ   
+ViMsgNotification             ; T_Info_04                  	  ; nots
+ViMsgNotification             ; T_Info_05                  	  ; newNots
+ViMsgNotification             ; I_Aut_User                    ; autId
+ViMsgNotification             ; D_Date                  	  ; dt
+ViMsgNotification             ; T_Avatar                  	  ; avatar
